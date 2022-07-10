@@ -91,6 +91,15 @@ body {
   width: 100%;
 }
 
+.secTitle {
+  text-align: center;
+  padding-top: 3rem;
+  font-family: "RocknRoll One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 /* HEADER SECTION */
 header {
   background-image: url(../media/images/head-background.jfif);
