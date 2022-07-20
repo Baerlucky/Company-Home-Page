@@ -407,21 +407,40 @@ a:hover {
 
 /* FOOTER SECTION */
 footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
   background-color: #8080ff;
   box-sizing: border-box;
 }
 
-.oflBx {
-  padding: 1rem 0 0 3rem;
-}
-
-.copyright {
-  position: relative;
-  top: -1.9rem;
-  left: 50%;
+.ftNote {
+  display: flex;
   font-family: "RocknRoll One", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.ftNote a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #8080ff;
+}
+
+.ftNote .arrow {
+  position: relative;
+  top: -1rem;
+  left: 3.5rem;
+}
+
+@media only screen and (max-width: 680px) {
+.ftNote .arrow {
+    position: relative;
+    top: .25rem;
+    left: 0rem;
+  }
 }
