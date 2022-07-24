@@ -163,6 +163,23 @@ header {
     font-size: 2rem;
     color: #fff;
   }
+
+  .logo-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-bar li {
+    display: inline;
+    margin-left: -2rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -182,6 +199,15 @@ header {
     padding: 0.625rem;
     box-sizing: border-box;
   }
+
+  .nav-bar li {
+    display: inline;
+    padding-right: 4.3rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1489px) {
@@ -189,7 +215,7 @@ header {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    margin-left: 45%;
+    margin-left: 40%;
   }
 
   .title-container {
